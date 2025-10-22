@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Task Implementation</title>
+<link rel="stylesheet" href="style.css" />
+<script src="script.js" defer></script>
+</head>
+<body>
+<h1>Task Implementation Application</h1>
+<div>
+<h2>Data Preview</h2>
+<button id="load-data-btn">Load Data</button>
+<div id="data-preview" style="overflow-x: auto; max-width: 100%;"></div>
+</div>
+<div style="margin-top:20px;">
+<h2>Execution Result</h2>
+<button id="run-execute">Run execute.py</button>
+<pre id="result-output" style="background:#f0f0f0; padding:10px; white-space: pre-wrap;"></pre>
+</div>
+<script>if (window.location.hostname === "") { /* optional: auto-load data if needed */ }</script>
+</body>
+</html>
